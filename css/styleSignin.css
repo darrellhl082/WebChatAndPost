@@ -1,0 +1,32 @@
+.signinField {
+    background-color: white;
+    padding: 2rem;
+    border: 1px solid rgb(219, 219, 219)
+}
+
+h1 {
+    font-family: Arial,
+        Helvetica,
+        sans-serif;
+}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (min-width: 768px) {
+    .signinField {
+        width: 30vw;
+
+    }
+
+    body {
+        background-size: contain;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .signinField {
+        width: 90vw;
+    }
+}

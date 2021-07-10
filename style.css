@@ -1,0 +1,164 @@
+.main {
+    margin-top: 3rem;
+}
+
+.card-body img {
+    width: 3.5rem;
+}
+
+* {
+    font-family: 'Roboto', arial, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: black;
+}
+
+nav {
+    background-color: rgb(255, 255, 255);
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+
+
+.right {
+    height: 100vh;
+    overflow: scroll;
+}
+
+.main {
+    height: 100vh;
+    overflow: scroll;
+}
+
+
+
+.main,
+.right {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
+}
+
+.main::-webkit-scrollbar,
+.right::-webkit-scrollbar {
+    display: none;
+}
+
+.account .avatar {
+    width: 2rem;
+}
+
+.leftNav .setting {
+    margin-top: 3.5rem;
+    list-style: none;
+}
+
+.avatarSearch {
+    width: 3.5rem;
+}
+
+.drop {
+    display: none;
+}
+
+.btn-primary {
+    color: white;
+}
+
+.otherField {
+
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 99999;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.otherBox {
+    top: 10vh;
+    height: 90vh;
+    overflow: scroll;
+    background-color: white;
+}
+
+
+
+@media only screen and (min-width: 768px) {
+    .responsiveNav2 {
+        display: none;
+    }
+
+    .switch {
+        display: none;
+    }
+
+    .twitCard {
+        margin-bottom: 1rem;
+        width: 25rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+
+    .drop {
+        display: inline;
+
+    }
+
+    .left {
+        display: none;
+    }
+
+    /* .navbar-nav {
+        justify-content: center;
+        text-align: center;
+    } */
+
+    .responsiveNav {
+        display: none;
+    }
+
+
+
+    .main {
+        margin-top: 1rem;
+    }
+
+    .right {
+        margin-top: 1rem;
+    }
+
+    .switch {
+        margin-top: 5rem;
+    }
+
+    .twitCard {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+
+
+}
+
+.displayNone {
+    display: none;
+}

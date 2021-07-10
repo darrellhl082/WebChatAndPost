@@ -1,0 +1,25 @@
+nav {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.type {
+    border-top: 1px solid rgb(219, 219, 219);
+    padding: 0.5rem 0;
+}
+
+.content {
+    margin-bottom: 4rem;
+}
+
+.avatar {
+    width: 2.5rem;
+}
+
+
+.bubble {
+    border-radius: 1rem;
+}
+
+a {
+    text-decoration: none;
+}

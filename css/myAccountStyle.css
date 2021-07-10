@@ -1,0 +1,41 @@
+* {
+    color: black;
+}
+
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+.content {
+
+    overflow: hidden;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+.card-title {
+    color: black;
+}
+
+.card-body a img {
+    width: 4rem;
+}
+
+.card {
+    border: 1px solid rgb(219, 219, 219);
+    background: white;
+}
+
+nav {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+.jumbotron {
+    border: 1px solid rgb(219, 219, 219);
+}

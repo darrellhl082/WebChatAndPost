@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(235, 235, 235);
+}
+
+nav {
+    border-bottom: 1px solid rgb(219, 219, 219);
+}
+
+
+.main {
+    border: 1px solid rgb(219, 219, 219);
+    width: 50%;
+}
+
+.changeBtn {
+    width: 30%;
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        width: 90%;
+    }
+
+    .changeBtn {
+        width: 75%;
+    }
+}

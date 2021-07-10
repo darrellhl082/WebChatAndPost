@@ -1,0 +1,124 @@
+body {
+    background-color: rgb(235, 235, 235);
+    height: 100vh;
+}
+
+.avatarPrm {
+    width: 3rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+.avatar {
+    width: 3.5rem;
+}
+
+
+
+.chatBox {
+    background-color: white;
+    border: 1px solid rgb(219, 219, 219);
+    overflow: scroll;
+    height: 100%;
+}
+
+.main {
+    margin-top: 6%;
+    height: 93%;
+}
+
+.chatList {
+    height: 100%;
+    overflow: scroll;
+}
+
+.chatBox,
+.chatList {
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
+}
+
+.chatBox::-webkit-scrollbar,
+.chatList::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.left {
+    height: 100vh;
+}
+
+.content {
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+
+.type {
+    height: 4.5rem;
+    padding: 0.5rem;
+    border: 1px solid rgb(219, 219, 219);
+    z-index: 9999;
+}
+
+.chatBubble {
+    border-radius: 1rem;
+}
+
+.bubbleField {
+    margin-top: 1rem;
+    overflow: hidden;
+
+}
+
+.account {
+    border-bottom: 1px solid rgb(219, 219, 219);
+    z-index: 999;
+}
+
+.bub {
+    color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+
+@media only screen and (min-width: 768px) {
+    .mobile {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        height: max-content;
+    }
+
+    .content {
+        height: max-content;
+        margin-top: 3rem;
+    }
+
+    .chatBox {
+        display: none;
+    }
+
+    .mobile {
+        display: inline;
+    }
+
+    .desktop {
+        display: none;
+    }
+
+}
